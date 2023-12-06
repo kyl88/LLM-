@@ -1,4 +1,23 @@
-const API_KEY = "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"
+const API_KEY = ""
+const submitButton = document.querySelector('#submit')
+
+async function getMessage() {
+    console.log('clicked')
+ try {
+
+
+    
+ }
+
+ catch{
+
+
+ }
+
+}
+
+
+
 
 // create a function to fetch API data (Post)
 
@@ -32,3 +51,4 @@ async function fetchData() {
 }
 
 fetchData();
+submitButton.addEventListener('click', getMessage)
